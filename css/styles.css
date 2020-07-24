@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  text-align: center;
+  color: grey;
+}
+
+h2 {
+  font-family: 'Bilbo Swash Caps';
+  color: #006a71;
+  font-size: 70px;
+  margin: 3rem auto 3rem auto;
+}
+
+h3 {
+  font-family: 'Bilbo Swash Caps';
+  color: #006a71;
+  font-size: 50px;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Bilbo Swash Caps';
+  font-size: 100px;
+  color: #006a71;
+}
+
+hr {
+  border: none;
+  border-top: 5px dotted grey;
+  width: 5%;
+}
+
+p {
+  font-size: 25px;
+}
+
+/********************Class Selectors********************/
+/********************div1********************/
+.div1 {
+  background-color: #cbeaed;
+  padding-top: 200px;
+  position: relative;
+}
+
+.cloud1 {
+  position: absolute;
+  /* when you use the position property the display property bcomes obsolete */
+  top: 150px;
+  right: 20%;
+}
+
+.cloud2 {
+  position: absolute;
+  bottom: 300px;
+}
+
+.mountain {
+  display: inline-block;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/********************div2********************/
+.div2 {
+  background-color: white;
+  padding: 50px 0;
+}
+
+.imgprofile {
+  width: 20%;
+  height: 100%;
+}
+
+.imgskill1 {
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-right: 30px;
+}
+
+.imgskill2 {
+  width: 300px;
+  height: 300px;
+  float: right;
+  margin-left: 30px;
+}
+
+.imgcontactme {
+  width: 200px;
+  height: 200px;
+}
+
+.profile {
+  margin: 3rem auto 3rem auto;
+}
+
+.skills {
+  width: 50%;
+  margin: 3rem auto 3rem auto;
+}
+
+.skill-row1 {
+  margin: 10rem auto 10rem auto;
+  text-align: left;
+}
+
+.skill-row2 {
+  margin: 10rem auto 10rem auto;
+  text-align: left;
+}
+
+.contactme {
+  margin: 10rem auto 10rem auto;
+}
+
+.btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: serif;
+  font-size: 40px;
+  font-weight: 100;
+  padding: 37px;
+  background-color: #006A71;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #006A71 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 2rem auto 2rem auto;
+}
+
+.btn:hover {
+  background: #006A71;
+  border: solid #006A71 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+/********************div3********************/
+.div3 {
+  background-color: #cbeaed;
+  color: grey;
+  text-align: center;
+  padding: 2rem 0 2rem 0;
+}
+.footer-link {
+  color: #006A71;
+  display: inline;
+  margin-right: 50px;
+  margin-left: 50px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.footer-link:hover {
+  color: white;
+}
+.icons {
+  font-size: 10px;
+  margin-top: 50px;
+}
+
+.copyright {
+  font-size: 20px;
+}
